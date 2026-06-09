@@ -1,0 +1,9 @@
+{
+  "name": "emmasucks-chat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build required'"
+  }
+}
