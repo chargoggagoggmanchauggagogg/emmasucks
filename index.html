@@ -2,15 +2,19 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Chat App</title>
-  <script src="https://tailwindcss.com"></script>
+  <title>emmasucks</title>
+  
+  <!-- FIX: Points directly to the live Tailwind compiler engine link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Links directly to your custom style code file right next to it -->
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body class="bg-zinc-950 text-white">
-  
+
   <!-- The main container your app bundle hooks into -->
   <div id="root"></div>
 
-  <!-- We load the raw application bundle script straight from your desktop -->
   <script type="module">
     var Hy=e=>{throw TypeError(e)};var Kf=(e,t,n)=>t.has(e)||Hy("Cannot "+n);var L=(e,t,n)=>(Kf(e,t,"read from private field"),n?n.call(e):t.get(e)),Ee=(e,t,n)=>t.has(e)?Hy("Cannot add the same private member more than once"):t instanceof WeakSet?t.add(e):t.set(e,n),fe=(e,t,n,s)=>(Kf(e,t,"write to private field"),s?s.call(e,n):t.set(e,n),n),Be=(e,t,n)=>(Kf(e,t,"access private method"),n);var _c=(e,t,n,s)=>({set _(a){fe(e,t,a,n)},get _(){return L(e,t,s)}});function xC(e,t){for(var n=0;n<t.length;n++){const s=t[n];if(typeof s!="string"&&!Array.isArray(s)){for(const a in s)if(a!=="default"&&!(a in e)){const c=Object.getOwnPropertyDescriptor(s,a);c&&Object.defineProperty(e,a,c.get?c:{enumerable:!0,get:()=>s[a]})}}}return Object.freeze(Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}))}(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))s(a);new MutationObserver(a=>{for(const c of a)if(c.type==="childList")for(const u of c.addedNodes)u.tagName==="LINK"&&u.rel==="modulepreload"&&s(u)}).observe(document,{childList:!0,subtree:!0});function n(a){const c={};return a.integrity&&(c.integrity=a.integrity),a.referrerPolicy&&(c.referrerPolicy=a.referrerPolicy),a.crossOrigin==="use-credentials"?c.credentials="include":a.crossOrigin==="anonymous"?c.credentials="omit":c.credentials="same-origin",c}function s(a){if(a.ep)return;a.ep=!0;const c=n(a);fetch(a.href,c)}})();function ym(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var Gf={exports:{}},ba={},Qf={exports:{}},qe={};/**
  * @license React
